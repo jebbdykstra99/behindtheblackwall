@@ -1,0 +1,194 @@
+{
+  "siteId": "behindtheblackwall",
+  "roomNumber": 21,
+  "redditSr": "behindtheblackwall",
+  "name": "behindtheblackwall",
+  "tagline": "Personal archive room — Substack + Docs. Content DB pending.",
+  "composePlaceholder": "A note, letter draft, or clip pointer…",
+  "emptyState": "Placeholder nests until Jebb's content DB lands. Shell + Stories ready. Sign in to post. Guest can browse. Preview.",
+  "preview": true,
+  "noindex": true,
+  "domain": "behindtheblackwall.com",
+  "earlyWelcome": false,
+  "dms": false,
+  "robots": "noindex, nofollow",
+  "honesty": "Personal archive / Substack+Docs room · preview · content database pending · not a news outlet",
+  "trustBlurb": "Jebb's personal archive room. Preview shell until the content DB is populated. Guest can browse.",
+  "exploreExplainer": "Placeholder nests (letters, notes, essays, clips). CTO schedules from Jebb's DB when it lands. No invented Substack body copy.",
+  "stories": {
+    "enabled": true,
+    "maxSeconds": 15,
+    "maxBytes": 8000000
+  },
+  "theme": {
+    "bg": "#121212",
+    "surface": "#1a1a1a",
+    "nav-bg": "#0a0a0a",
+    "nav-text": "#8a8a8a",
+    "nav-hover": "#e8e8e8",
+    "nav-active": "#f0f0f0",
+    "text": "#e8e8e8",
+    "text-muted": "#9a9a9a",
+    "text-light": "#6a6a6a",
+    "accent": "#c9a84c",
+    "accent-dark": "#a88830",
+    "teal": "#5a7a8a",
+    "silver": "#a0a0a0",
+    "border": "#2a2a2a",
+    "avatarColors": [
+      "#c9a84c",
+      "#a88830",
+      "#5a7a8a",
+      "#3a3a3a",
+      "#8a8a8a",
+      "#e8e8e8"
+    ]
+  },
+  "nests": [
+    {
+      "slug": "letters",
+      "label": "Letters",
+      "parent": null,
+      "kind": "archive",
+      "blurb": "Epistolary pieces and open letters — placeholders until DB.",
+      "nav": true
+    },
+    {
+      "slug": "notes",
+      "label": "Notes",
+      "parent": null,
+      "kind": "archive",
+      "blurb": "Short notes and working scraps — content DB pending.",
+      "nav": true
+    },
+    {
+      "slug": "essays",
+      "label": "Essays",
+      "parent": null,
+      "kind": "archive",
+      "blurb": "Longer essays from Substack/Docs — not invented here.",
+      "nav": true
+    },
+    {
+      "slug": "clips",
+      "label": "Clips",
+      "parent": null,
+      "kind": "archive",
+      "blurb": "Clip pointers / excerpts with outbound links only.",
+      "nav": true
+    }
+  ],
+  "directory": {
+    "note": "Until Jebb DB lands: shell + Stories + Path A busy-feed + placeholder nests only. No inventing Substack body copy. CTO decides cadence and pre-populated topics from that DB."
+  },
+  "taxonomy": {
+    "version": 1,
+    "name": "Archive shelves",
+    "symbolPrefix": "$",
+    "topics": [
+      {
+        "id": "letters",
+        "label": "Letters",
+        "kind": "shelf",
+        "blurb": "Epistolary",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "notes",
+        "label": "Notes",
+        "kind": "shelf",
+        "blurb": "Short form",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "essays",
+        "label": "Essays",
+        "kind": "shelf",
+        "blurb": "Long form",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "clips",
+        "label": "Clips",
+        "kind": "shelf",
+        "blurb": "Pointers",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active"
+      }
+    ],
+    "defaultWatchlist": [
+      "letters",
+      "notes",
+      "essays"
+    ],
+    "notes": "Placeholder taxonomy until content DB supplies real topics."
+  },
+  "trends": [],
+  "outbound": [],
+  "sessionSeeds": [],
+  "rail": {
+    "kind": "outbound",
+    "title": "Room Brief",
+    "kicker": "Preview",
+    "maxCards": 3,
+    "meta": "Personal archive · content DB pending · preview · noindex",
+    "footer": "Shell only until Jebb's Substack/Docs database lands. No invented body copy in this seed.",
+    "fact": {
+      "tag": "FACT",
+      "headline": "Archive shell — content DB pending.",
+      "body": "behindtheblackwall is Jebb's personal Substack + Google Docs archive room. Placeholder nests (letters, notes, essays, clips) ship empty of invented prose. When the content database lands, CTO schedules volume and nested topics from that source."
+    },
+    "outbound": [
+      {
+        "tag": "Status",
+        "headline": "Content database not seeded yet",
+        "url": "https://behindtheblackwall.com/",
+        "snippet": "This preview shows the factory shell and nest labels only. Essays and letters will appear when Jebb's DB is connected — not before.",
+        "meta": "Preview · 2026-09-26"
+      },
+      {
+        "tag": "Policy",
+        "headline": "SAVE LINKS NOT CONTENT",
+        "url": "https://behindtheblackwall.com/",
+        "snippet": "Outbound pointers to Substack / Docs when published. Do not scrape or mirror full posts into the seed pack.",
+        "meta": "House rule · preview"
+      },
+      {
+        "tag": "Tips",
+        "headline": "Use nests as shelves",
+        "url": "https://behindtheblackwall.com/",
+        "snippet": "letters · notes · essays · clips. Post handles and short pointers only until the archive ingest is live.",
+        "meta": "Best practice · preview"
+      }
+    ],
+    "porch": {
+      "prompt": "While the archive loads…",
+      "options": [
+        "Browse nest shelves",
+        "Leave a short note",
+        "Check back after DB"
+      ],
+      "dwellMs": 9000
+    },
+    "overlay": {
+      "enabled": true,
+      "ms": 7000,
+      "headline": "Archive shell — content DB pending.",
+      "links": [
+        {
+          "label": "Home",
+          "url": "https://behindtheblackwall.com/"
+        }
+      ]
+    }
+  },
+  "v": 1,
+  "cacheBust": 1
+}
