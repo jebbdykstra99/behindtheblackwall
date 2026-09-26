@@ -14,7 +14,7 @@
   "robots": "noindex, nofollow",
   "honesty": "Personal archive / Substack+Docs room · preview · content database pending · not a news outlet",
   "trustBlurb": "Jebb's personal archive room. Preview shell until the content DB is populated. Guest can browse.",
-  "exploreExplainer": "Placeholder nests (letters, notes, essays, clips). CTO schedules from Jebb's DB when it lands. No invented Substack body copy.",
+  "exploreExplainer": "Placeholder nests (letters · notes · essays · clips · archives · correspondence · field-notes · blackwall-desk). CTO schedules from Jebb's DB when it lands. No invented Substack body copy. Save links, not content.",
   "stories": {
     "enabled": true,
     "maxSeconds": 15,
@@ -48,33 +48,65 @@
     {
       "slug": "letters",
       "label": "Letters",
+      "kind": "form",
       "parent": null,
-      "kind": "archive",
-      "blurb": "Epistolary pieces and open letters — placeholders until DB.",
+      "blurb": "Long-form letters behind the wall.",
       "nav": true
     },
     {
       "slug": "notes",
       "label": "Notes",
+      "kind": "form",
       "parent": null,
-      "kind": "archive",
-      "blurb": "Short notes and working scraps — content DB pending.",
+      "blurb": "Short notes and asides.",
       "nav": true
     },
     {
       "slug": "essays",
       "label": "Essays",
+      "kind": "form",
       "parent": null,
-      "kind": "archive",
-      "blurb": "Longer essays from Substack/Docs — not invented here.",
+      "blurb": "Essays — cite when claiming FACT.",
       "nav": true
     },
     {
       "slug": "clips",
       "label": "Clips",
+      "kind": "form",
       "parent": null,
-      "kind": "archive",
-      "blurb": "Clip pointers / excerpts with outbound links only.",
+      "blurb": "Outbound links to clips — save links not files.",
+      "nav": true
+    },
+    {
+      "slug": "archives",
+      "label": "Archives",
+      "kind": "theme",
+      "parent": null,
+      "blurb": "Pull from the archive stack.",
+      "nav": true
+    },
+    {
+      "slug": "correspondence",
+      "label": "Correspondence",
+      "kind": "theme",
+      "parent": null,
+      "blurb": "Reader ↔ desk replies.",
+      "nav": true
+    },
+    {
+      "slug": "field-notes",
+      "label": "Field notes",
+      "kind": "theme",
+      "parent": null,
+      "blurb": "On-the-ground notes.",
+      "nav": true
+    },
+    {
+      "slug": "blackwall-desk",
+      "label": "Blackwall desk",
+      "kind": "theme",
+      "parent": null,
+      "blurb": "Editorial desk queue.",
       "nav": true
     }
   ],
@@ -143,7 +175,7 @@
     "fact": {
       "tag": "FACT",
       "headline": "Archive shell — content DB pending.",
-      "body": "behindtheblackwall is Jebb's personal Substack + Google Docs archive room. Placeholder nests (letters, notes, essays, clips) ship empty of invented prose. When the content database lands, CTO schedules volume and nested topics from that source."
+      "body": "behindtheblackwall is Jebb's personal Substack + Google Docs archive room. Placeholder nests (letters · notes · essays · clips · archives · correspondence · field-notes · blackwall-desk) ship empty of invented prose. When the content database lands, CTO schedules volume and nested topics from that source. Save links, not content."
     },
     "outbound": [
       {
@@ -164,7 +196,7 @@
         "tag": "Tips",
         "headline": "Use nests as shelves",
         "url": "https://behindtheblackwall.com/",
-        "snippet": "letters · notes · essays · clips. Post handles and short pointers only until the archive ingest is live.",
+        "snippet": "letters · notes · essays · clips · archives · correspondence · field-notes · blackwall-desk. Post handles and short pointers only until the archive ingest is live. Save links, not content.",
         "meta": "Best practice · preview"
       }
     ],
