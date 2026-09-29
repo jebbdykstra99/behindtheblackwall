@@ -10,7 +10,7 @@
   "noindex": true,
   "domain": "behindtheblackwall.com",
   "earlyWelcome": false,
-  "dms": false,
+  "dms": true,
   "robots": "noindex, nofollow",
   "honesty": "Personal archive / Substack+Docs room · preview · content database pending · not a news outlet",
   "trustBlurb": "Jebb's personal archive room. Preview shell until the content DB is populated. Guest can browse.",
