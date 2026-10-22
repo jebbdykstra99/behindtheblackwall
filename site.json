@@ -2,18 +2,18 @@
   "siteId": "behindtheblackwall",
   "roomNumber": 21,
   "name": "behindtheblackwall",
-  "tagline": "Personal archive room — Substack + Docs. Content DB pending.",
+  "tagline": "An archive room for Jebb Dykstra's Substack writing.",
   "composePlaceholder": "A note, letter draft, or clip pointer…",
-  "emptyState": "Placeholder nests until Jebb's content DB lands. Shell + Stories ready. Sign in to post. Guest can browse. Preview.",
+  "emptyState": "Nothing here yet. Sign in to post, or browse as a guest. Preview.",
   "preview": true,
   "noindex": true,
   "domain": "behindtheblackwall.com",
   "earlyWelcome": false,
   "dms": true,
   "robots": "noindex, nofollow",
-  "honesty": "Personal archive / Substack+Docs room · preview · content database pending · not a news outlet",
-  "trustBlurb": "Jebb's personal archive room. Preview shell until the content DB is populated. Guest can browse.",
-  "exploreExplainer": "Placeholder nests (letters · notes · essays · clips · archives · correspondence · field-notes · blackwall-desk). CTO schedules from Jebb's DB when it lands. No invented Substack body copy. Save links, not content.",
+  "honesty": "Archive room for Jebb Dykstra's Substack writing · preview · not a news outlet",
+  "trustBlurb": "An archive room for Jebb Dykstra's Substack writing. Preview. Guests can browse.",
+  "exploreExplainer": "Nests: letters, notes, essays, clips, archives, correspondence, field notes and the Blackwall desk. Share links, not copied content.",
   "stories": {
     "enabled": true,
     "maxSeconds": 15,
@@ -169,19 +169,19 @@
     "title": "Room Brief",
     "kicker": "Preview",
     "maxCards": 3,
-    "meta": "Personal archive · content DB pending · preview · noindex",
+    "meta": "Archive of Jebb Dykstra's Substack writing · preview",
     "footer": "Shell only until Jebb's Substack/Docs database lands. No invented body copy in this seed.",
     "fact": {
       "tag": "FACT",
       "headline": "Archive shell — content DB pending.",
-      "body": "behindtheblackwall is Jebb's personal Substack + Google Docs archive room. Placeholder nests (letters · notes · essays · clips · archives · correspondence · field-notes · blackwall-desk) ship empty of invented prose. When the content database lands, CTO schedules volume and nested topics from that source. Save links, not content."
+      "body": "Behind the Blackwall is an archive room for Jebb Dykstra's Substack writing. Nests cover letters, notes, essays, clips, archives, correspondence and field notes. Share links, not copied content."
     },
     "outbound": [
       {
         "tag": "Status",
         "headline": "Content database not seeded yet",
         "url": "https://behindtheblackwall.com/",
-        "snippet": "This preview shows the factory shell and nest labels only. Essays and letters will appear when Jebb's DB is connected — not before.",
+        "snippet": "Essays and letters will appear here as they're added. Share links, not copied content.",
         "meta": "Preview · 2026-09-26"
       },
       {
@@ -227,5 +227,6 @@
     "following": true,
     "notifs": true
   },
-  "minAge": 18
+  "minAge": 18,
+  "pixel": false
 }
