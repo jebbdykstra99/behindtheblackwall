@@ -227,5 +227,6 @@
     "following": true,
     "notifs": true
   },
-  "minAge": 18
+  "minAge": 18,
+  "pixel": false
 }
