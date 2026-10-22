@@ -2,7 +2,7 @@
   "siteId": "behindtheblackwall",
   "roomNumber": 21,
   "name": "behindtheblackwall",
-  "tagline": "Personal archive room — Substack + Docs. Content DB pending.",
+  "tagline": "An archive room for Jebb Dykstra's Substack writing.",
   "composePlaceholder": "A note, letter draft, or clip pointer…",
   "emptyState": "Nothing here yet. Sign in to post, or browse as a guest. Preview.",
   "preview": true,
@@ -11,8 +11,8 @@
   "earlyWelcome": false,
   "dms": true,
   "robots": "noindex, nofollow",
-  "honesty": "Personal archive / Substack+Docs room · preview · content database pending · not a news outlet",
-  "trustBlurb": "Jebb's personal archive room. Preview shell until the content DB is populated. Guest can browse.",
+  "honesty": "Archive room for Jebb Dykstra's Substack writing · preview · not a news outlet",
+  "trustBlurb": "An archive room for Jebb Dykstra's Substack writing. Preview. Guests can browse.",
   "exploreExplainer": "Nests: letters, notes, essays, clips, archives, correspondence, field notes and the Blackwall desk. Share links, not copied content.",
   "stories": {
     "enabled": true,
@@ -169,7 +169,7 @@
     "title": "Room Brief",
     "kicker": "Preview",
     "maxCards": 3,
-    "meta": "Personal archive · content DB pending · preview · noindex",
+    "meta": "Archive of Jebb Dykstra's Substack writing · preview",
     "footer": "Shell only until Jebb's Substack/Docs database lands. No invented body copy in this seed.",
     "fact": {
       "tag": "FACT",
@@ -181,7 +181,7 @@
         "tag": "Status",
         "headline": "Content database not seeded yet",
         "url": "https://behindtheblackwall.com/",
-        "snippet": "This preview shows the factory shell and nest labels only. Essays and letters will appear when Jebb's DB is connected — not before.",
+        "snippet": "Essays and letters will appear here as they're added. Share links, not copied content.",
         "meta": "Preview · 2026-09-26"
       },
       {
