@@ -1,6 +1,6 @@
 # behindtheblackwall
 
-SubX room #21 — Personal archive room — Substack + Docs. Content DB pending. (preview).
+SubX room #21: Personal archive room, Substack + Docs. Content DB pending. (preview).
 
 Static site. `siteId` is `behindtheblackwall`. Custom domain in `CNAME` is `behindtheblackwall.com`. Preview banner and `noindex` stay on.
 
