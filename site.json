@@ -2,7 +2,7 @@
   "siteId": "behindtheblackwall",
   "roomNumber": 21,
   "name": "behindtheblackwall",
-  "tagline": "Personal archive room — Substack + Docs. Content DB pending.",
+  "tagline": "Personal archive room: Substack + Docs. Content DB pending.",
   "composePlaceholder": "A note, letter draft, or clip pointer…",
   "emptyState": "Placeholder nests until the content DB lands. Shell + Stories ready. Sign in to post. Guest can browse. Preview.",
   "preview": true,
@@ -65,7 +65,7 @@
       "label": "Essays",
       "kind": "form",
       "parent": null,
-      "blurb": "Essays — cite when claiming FACT.",
+      "blurb": "Essays: cite when claiming FACT.",
       "nav": true
     },
     {
@@ -73,7 +73,7 @@
       "label": "Clips",
       "kind": "form",
       "parent": null,
-      "blurb": "Outbound links to clips — save links not files.",
+      "blurb": "Outbound links to clips: save links not files.",
       "nav": true
     },
     {
@@ -173,7 +173,7 @@
     "footer": "Shell only until the Substack/Docs database lands. No invented body copy in this seed.",
     "fact": {
       "tag": "FACT",
-      "headline": "Archive shell — content DB pending.",
+      "headline": "Archive shell: content DB pending.",
       "body": "behindtheblackwall is a personal Substack + Google Docs archive room. Placeholder nests (letters · notes · essays · clips · archives · correspondence · field-notes · blackwall-desk) ship empty of invented prose. When the content database lands, CTO schedules volume and nested topics from that source. Save links, not content."
     },
     "outbound": [
@@ -211,7 +211,7 @@
     "overlay": {
       "enabled": true,
       "ms": 7000,
-      "headline": "Archive shell — content DB pending.",
+      "headline": "Archive shell: content DB pending.",
       "links": [
         {
           "label": "Home",
