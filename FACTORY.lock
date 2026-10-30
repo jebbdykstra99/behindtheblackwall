@@ -1,14 +1,14 @@
 {
   "factory": "jebbdykstra99/subx-factory",
-  "version": "v1.0.1+nr",
+  "version": "v1.0.1+nr (hand lock 2026-10-30)",
   "room": "behindtheblackwall",
   "siteId": "behindtheblackwall",
   "files": {
-    "factory.js": "a90e69ba13409b24ca19ff6be48c14e727ecc0c2f733fe44c4030539f9e9079b",
+    "factory.js": "c7212a6365aa31f4a38564c7ddde3963097655f380383f204d26987b65cdea5a",
     "styles.css": "5964b2a5343db0260b9296549686be9216786fb594db03eb89a7b3cbadcd0cf8"
   },
   "keepFiles": [],
   "exceptions": "see subx-factory EXCEPTIONS.md",
-  "stampedAt": "2026-10-19T14:00:00Z",
+  "stampedAt": "2026-10-30T13:30:00Z",
   "masterRef": "subx-factory factory/v1.0.0 @ aaf157f"
 }
